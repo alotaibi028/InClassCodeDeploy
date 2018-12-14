@@ -5,6 +5,13 @@ files:
     destination: /var/www/html/
   - source: /About.html
     destination: /var/www/html/
+  - source: /Age.html
+    destination: /var/www/html/
+  - source: /contact.html
+    destination: /var/www/html/ 
+  - source: /mymojor.html
+    destination: /var/www/html/
+   
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
